@@ -18,15 +18,15 @@
         <div>
            <form action="cadastro.php" method="post" autocomplete="on">
                 <p>
-                 Início:
+                 <label for="inicio">Início:</label>
                  <input type="number" name="txtano" id="inicio" >
                 </p>
                 <p>
-                 Fim:
+                 <label for="fim">Fim:</label>
                  <input type="number" name="txtano" id="fim" >
                 </p>
                 <p>
-                 Passo:
+                 <label for="passo">Passo:</label>
                  <input type="number" name="txtano" id="passo" >
                 </p>
            </form>
@@ -35,6 +35,7 @@
         <div>
             
             <input type="button" value="Contar" onclick="clicar()">
+            <input type="reset" value="Limpar">
             <p id="contando">Preparando a contagem...</p>
             <p id="contagem"></p>
         </div>
