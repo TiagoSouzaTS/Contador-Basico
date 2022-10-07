@@ -8,6 +8,10 @@ header{
     text-align: center;
 }
 
+header > h1 {
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.397);
+}
+
 section{
     background: white;
     border-radius: 10px;
